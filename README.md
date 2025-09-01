@@ -1,6 +1,6 @@
 # products-cart
 A simple script that allows adding products into a shopping cart directly from online stores.  
-It works by extracting product information from **JSON-LD** embedded on the page.
+It works by extracting product information from **JSON-LD** embedded on the page. <br/>
 The `tests` branch contains tests for some functions of this script.
 
 The script has been tested and works on the following websites:
@@ -12,8 +12,10 @@ The script has been tested and works on the following websites:
 - [JD Sports](https://www.jdsports.pl)  
 - [Rossmann](https://www.rossmann.pl)
 
-The script uses structured data in **JSON-LD**, which is usually embedded in:
+Usage: 
+Enter one of the above links into your browser, navigate to a product page, open the console (F12), paste the code and run. 
 
+The script uses structured data in **JSON-LD**, which is usually embedded in:
 ```html 
 <script type="application/ld+json"> ... </script>
 ```
@@ -44,4 +46,5 @@ Example:
 ToDo:
 - Handle other schema JSON LD types
 - Improve cart appearance
+- Tests for other functions
 - Microdata? RDFa?
