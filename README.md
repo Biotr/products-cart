@@ -1,6 +1,7 @@
 # products-cart
 A simple script that allows adding products into a shopping cart directly from online stores.  
 It works by extracting product information from **JSON-LD** embedded on the page.
+The `tests` branch contains tests for some functions of this script.
 
 The script has been tested and works on the following websites:
 - [x-kom](https://www.x-kom.pl)  
